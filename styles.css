@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-color: #d9cdf7;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  gap: 0.8125rem;
+  justify-content: center;
+  height: 100%;
+  margin-right: 132px;
+}
+
+.image {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.image button {
+  width: 20%;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  color: #271a45;
+}
+
+.image img {
+  max-width: 449px;
+  max-height: 253px;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  justify-content: center;
+
+  height: 100%;
+}
+
+.description span {
+  color: #271a45;
+  opacity: 0.6;
+  font-family: "Lato";
+}
+
+.description strong {
+  font-family: "Crimson Pro";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  color: #271a45;
+}
+
+.description section {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.description button {
+  color: #271a45;
+
+  cursor: pointer;
+
+  border-radius: 30px;
+  border: 0.5px solid #271a45;
+  background: transparent;
+  height: 32px;
+  width: 60%;
+  padding: 8px 16px;
+
+  transition: background-color 0.5s;
+}
+
+.description button:hover {
+  color: white;
+  background: #895cf0;
+}
